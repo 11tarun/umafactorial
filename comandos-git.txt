@@ -1,0 +1,129 @@
+    1  ls
+    2  git config --global http.proxy http://proxy.lcc.uma.es:3128 --configurar git para usar el proxy
+    3  git config user.name "11tarun"
+    4  git config user.name 11tarun --configurar usuario
+    5  ls
+    6  pwd
+    7  ls
+    8  cd Desktop
+    9  ls
+   10  git config user.name "11tarun" 
+   11  git clone https://github.com/11tarun/umafactorial.git   --clona en la carpeta creada
+   12  git config
+   13  git user.name 11tarun
+   14  git config --global user.name "11tarun"
+   15  git config --global user.email devnanitarun@uma.es --configurar email
+   16  git clone https://github.com/11tarun/umafactorial.git
+   17  git init #crear repositorio
+   18  ls
+   19  git clone https://github.com/11tarun/umafactorial.git  --copia en carpeta
+   20  git config --global http.proxy http://proxy.lcc.uma.es:3128 
+   21  git clone https://github.com/11tarun/umafactorial.git
+   22  git config --list
+   23  git clone https://github.com/11tarun/umafactorial.git
+   24  ls -la
+   25  ls -la .git
+   26  git init
+   27  git add factorial.java --añade el primer fichero
+   28  git clone https://github.com/11tarun/umafactorial.git
+   29  git config user.name 11tarun
+   30  git config user.email devnanitarun@uma.es
+   31  git clone https://github.com/11tarun/umafactorial.git
+   32  git remote add origin https://github.com/11tarun/umafactorial.git  
+   33  git push -u origin master --sube a la nube en la rama master
+   34  git ilumniatid
+   35  git push -u origin master
+   36  git clone https://github.com/11tarun/umafactorial.git
+   37  touch README.md
+   38  git init
+   39  git add README.md
+   40  git commit -m "first commit" --comenta el funcionamiento con el comentario para hacer referencia
+   41  git remote add origin https://github.com/11tarun/umafactorial.git
+   42  git push -u origin master
+   43  git rm README.md
+   44  touch README.md
+   45  git rm README.md
+   46  git clone https://github.com/11tarun/umafactorial.git
+   47  git add factorial.java --añade el fichero
+   48  ls
+   49  git rm README.md
+   50  ls
+   51  rm README.md
+   52  ls
+   53  git checkout master 
+   54  git clone https://github.com/11tarun/umafactorial.git
+   55  git config --global http.proxy http://proxy.lcc.uma.es:3128
+   56  git clone https://github.com/11tarun/umafactorial.git
+   57  git config --global http.proxy http://proxy.alu.uma.es:3128
+   58  git clone https://github.com/11tarun/umafactorial.git
+   59  git add factorial.java --añade fichero
+   60  git commit -m "implementacion inicial" --comenta funcionamiento
+   61  git commit -m "refactorizacion" --comenta funcionamiento
+   62  git push origin master --lo sube a la nube
+   63  git checkout -b recursivo --con el -b crea la rama y cambia a la trama recursivo
+   64  git checkout -b master 
+   65  ls
+   66  cd Desktop
+   67  ls
+   68  cd umafactorial
+   69  git checkout -b master
+   70  git checkout master --cambia a la rama master
+   71  lss
+   72  ls
+   73  cat factorial.java --muestra lo que hay en el fichero
+   74  git push origin master --sube a mi GitHub
+   75  git checkout -b recursivo
+   76  git checkout recursivo --cambia a la rama recursivo
+   77  vi factorial.java --entro en el fichero para modificar
+   78  git add factorial.java --añade el fichero a la carpeta
+   79  git commit -m "implementacion recursiva" --comenta dicho fichero con ese mensaje
+   80  git checkout master --cambia a la rama master
+   81  vi factorial.java --entro en el fichero para modificar
+   82  git add factorial.java --añade el fichero a la carpeta
+   83  git commit -m "correcion numeros negativos" --comenta dicho fichero con ese mensaje
+   84  git push origin master --sube a mi GitHub en la rama master
+   85* git status
+   86  git push origin 
+   87  git checkout recursivo --cambia a rama recursivo
+   88  vi factorial.java --entro en el fichero para modificarlo
+   89  git add factorial.java --añade el fichero a la carpeta
+   90  git commit -m "optimizacion" --comenta dicho fichero con ese mensaje
+   91  git status --compruebo si esta todo correcto
+   92  git checkout master --cambio a la rama master
+   93  git merge recursivo --mezcla la rama actual (master) con la rama recursivo
+   94  vi factorial.java --entro en el fichero 
+   95  git checkout -b refactIO --crea la rama con nombre refactIO
+   96  vi factorial.java --entro en el fichero para modificarlo
+   97  git add factorial.java --añade dicho fichero a la carpeta
+   98  git status --compruebo si esta todo correcto
+   99  git commit -m "refactorizacion de metodo de entrada" --comento dicho fichero con ese mensaje
+  100  git push origin 
+  101  git push origin refactIO --subo dicha rama a mi GitHub
+  102  vi factorial.java --entro en el fichero para modificarlo
+  103  git add factorial.java --añado dicho fichero a la carpeta
+  104  git stash --guarda temporalmente los ultimos cambios
+  105  git checkout master --cambio a la rama master
+  106  git status --comprobar estado
+  107  vi factorial.java --entro en el fichero para modificarlo
+  108  git add factorial.java --añado fichero a la carpeta
+  109  git commit -m "cambio de long a BigInteger" --comento dicho fichero con ese mensaje
+  110  git push origin master --subo dicha rama a mi GitHub
+  111  git branch --muestra el contenido de la rama
+  112  git checkout refactIO --cambio a la rama refactIO
+  113  git stash pop --recupero los cambios guardados 
+  114  git add factorial.java --añado el fichero a la carpeta
+  115  git stash pop 
+  116  git commit -m "refactorizacion de metodo de salida" --comento dicho fichero con ese mensaje
+  117  git status --compruebo estado
+  118  git checkout master --cambio a la rama master
+  119  git merge refactIO -- mezcla la rama actual (master) con la rama refactIO
+  120  vi factorial.java --entro en el fichero para modificarlo
+  121  git add factorial.java --añado dicho fichero a la carpeta
+  122  git commit -m "mezcla de rama refactIO" --comento dicho fichero con ese mensaje 
+  123  git push origin master
+  124  git push origin master
+  125  git push origin master
+  126  git push origin master
+  127  git push origin master --subo la rama master a mi GitHub
+  128  history
+#he reiniciado varias veces el Git Bash, trabajado en dos dispositivos distintos y el proxy ha sido un problema importante para la práctica.
